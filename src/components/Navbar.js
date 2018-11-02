@@ -13,12 +13,12 @@ class Navbar extends Component {
         <hr />
 
         <ul className="products">
-          <li>Bath</li>
-            <li>Shower</li>
-              <li>Hair</li>
-                <li>Body</li>
-                  <li>Face</li>
-                    <li>Fragrance</li>
+          <a href="/bath-products">Bath</a>
+            <a href="/shower-products">Shower</a>
+              <a href="/hair-products">Hair</a>
+                <a href="/body-products">Body</a>
+                  <a href="/facial-products">Face</a>
+                    <a href="/fragrances">Fragrance</a>
         </ul>
       </div>
     )
