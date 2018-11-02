@@ -11,6 +11,12 @@
   margin-bottom: 0px;
 }
 
+.shoppingCart{
+  width: 35px;
+  float: right;
+  margin-right: 20px;
+}
+
 hr{
   margin-top: 1px;
   margin-bottom: 1px;

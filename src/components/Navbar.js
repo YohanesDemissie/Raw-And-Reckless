@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import checkoutCart from '../images/checkoutCart.png'
 import '../styles/Navbar.css'
 
 class Navbar extends Component {
   render() {
     return(
       <div className="navbar">
+        <img className="shoppingCart" src={checkoutCart} alt="shopping cart" />
         <h1 className="title">
           Raw and Reckless
         </h1>
