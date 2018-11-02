@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/Home.css'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import placeHolder from '../images/placeholder.jpg'
 
 class Home extends Component{
@@ -9,6 +10,7 @@ class Home extends Component{
       <div>
         <Navbar />
         <img className="homeImage" src={placeHolder} alt="black beauty" />
+        <Footer />
       </div>
     )
   }
