@@ -2,6 +2,36 @@
   background: black;
   color: white;
   padding-top: 1px;
-  padding-bottom: 4px;
+  padding-bottom: 5px;
   font-size: 32px;
 }
+
+.title{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+hr{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.products{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 24px;
+}
+
+/* li{
+  list-style: none;
+  display: inline;
+} */
