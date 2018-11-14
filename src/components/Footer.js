@@ -8,12 +8,22 @@ class Footer extends Component{
   render() {
     return(
       <div  className="footer-comp" style={stylish}>
-        <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={facebookIcon} alt="facebook icon" /></a>
+        {/* <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={facebookIcon} alt="facebook icon" /></a>
         <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={instagramIcon} alt="instagram icon" /></a>
-        <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={twitterIcon} alt="twitter icon" /></a>
-        <p style={copyRight}>&copy; Raw and Reckless.</p>
-        <a style={footerLinks} href="https://termsfeed.com/privacy-policy/70907199871db6348be84738975e5c75">Privacy Policy |</a>
-        <a style={footerLinks} href="https://termsfeed.com/terms-use/f3004ee240c09ad7cdeda64c0ba0e5ba">Terms and Use</a>
+        <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={twitterIcon} alt="twitter icon" /></a> */}
+        
+        <hr style={horizontalLines}/>
+        
+        <div style={footerLinksContainer}>
+          <a style={footerLinks} href="https://termsfeed.com/privacy-policy/70907199871db6348be84738975e5c75">PRIVACY</a>
+          <a style={footerLinks} href="https://termsfeed.com/terms-use/f3004ee240c09ad7cdeda64c0ba0e5ba">TERMS</a>
+          <a style={footerLinks} >RETURNS</a>
+          <a style={footerLinks} >SHIPPING</a>
+          <a style={footerLinks} >CONTACT US</a>
+        </div>
+        <hr style={horizontalLines} />
+
+        <p style={copyRight}>&copy; Copyright <b> 2018 RAW AND RECKLESS</b></p>
       </div>
     )
   }
@@ -25,7 +35,6 @@ const style = {
     paddingTop: 10,
     paddingLeft: 10,
     paddingRight: 10,
-
   }
 }
 
@@ -33,23 +42,32 @@ const stylish = {
   marginTop: 20,
   textAlign: 'center',
   background: 'black',
-  color: 'white'
+  color: 'white',
+  paddingBottom: 50
+
 }
 
 const copyRight = {
   fontSize: '15px',
-  marginTop: 10,
+  marginTop: 15,
   marginBottom: 5
 }
 
-const footerLinks = {
+const footerLinksContainer = {
   fontSize: '15px',
   textDecoration: 'none',
-  color: 'black',
-  marginRight: 5,
-  marginTop: 0,
-  color: 'white',
-  width: 100
+  display: 'flex',
+  justifyContent: 'space-around',
+  marginLeft: '10%',
+  marginRight: '10%',
+}
 
+const footerLinks = {
+  marginTop: 10,
+  marginBottom: 10
+}
+
+const horizontalLines = {
+  color: 'white',
 }
 export default Footer;

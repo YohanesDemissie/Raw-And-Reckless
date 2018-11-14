@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import body from '../images/body.jpg'
 
 class BodyProducts extends Component{
   render() {
     return(
       <div>
         <Navbar />
-        <h1> Raw and Reckless BodyProducts</h1>
+        <img src={body} alt="black fragrance" />
         <Footer />
       </div>
     )
