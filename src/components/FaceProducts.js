@@ -9,7 +9,7 @@ class FaceProducts extends Component {
     return (
       <div>
         <Navbar />
-        <img src={faceImage} alt="face and products" />
+        <img className="place-holders" src={faceImage} alt="face and products" />
         <Footer />
       </div>
     )

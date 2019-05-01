@@ -9,7 +9,7 @@ class ShowerProducts extends Component{
     return(
       <div>
         <Navbar />
-        <img src={shower} alt="showering" />
+        <img className="place-holders" src={shower} alt="showering" />
         <Footer />
       </div>
     )

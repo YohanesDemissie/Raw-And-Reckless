@@ -9,7 +9,7 @@ class Home extends Component{
     return(
       <div>
         <Navbar />
-        <img className="homeImage" src={placeHolder} alt="black beauty" />
+        <img className="place-holders" src={placeHolder} alt="black beauty" />
         <Footer />
       </div>
     )

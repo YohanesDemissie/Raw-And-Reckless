@@ -9,7 +9,7 @@ class RecklessProducts extends Component {
     return (
       <div>
         <Navbar />
-        <img src={reckless} alt="smoking weed" />
+        <img className="place-holders" src={reckless} alt="smoking weed" />
         <Footer />
       </div>
     )

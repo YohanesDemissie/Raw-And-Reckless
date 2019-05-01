@@ -9,7 +9,7 @@ class HairProducts extends Component {
     return(
       <div>
         <Navbar />
-        <img src={hair} alt="hair" />
+        <img className="place-holders" src={hair} alt="hair" />
         <Footer />
       </div>
     )

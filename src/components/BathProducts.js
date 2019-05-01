@@ -7,7 +7,7 @@ class BathProducts extends Component {
     return(
       <div>
         <Navbar />
-        <img src={bathSubHeader} alt="woman taking bath" />
+        <img className="place-holders" src={bathSubHeader} alt="woman taking bath" />
         <Footer />
       </div>
     )

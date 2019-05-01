@@ -7,7 +7,7 @@ import instagramIcon from '../images/instagram-icon.png';
 class Footer extends Component{
   render() {
     return(
-      <div  className="footer-comp" style={stylish}>
+      <div className="footer-comp" style={stylish}>
         {/* <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={facebookIcon} alt="facebook icon" /></a>
         <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={instagramIcon} alt="instagram icon" /></a>
         <a href="" target="_blank" rel="noopener noreferrer"><img style={style.sizes} src={twitterIcon} alt="twitter icon" /></a> */}

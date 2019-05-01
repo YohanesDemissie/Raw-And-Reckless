@@ -8,7 +8,7 @@ class BodyProducts extends Component{
     return(
       <div>
         <Navbar />
-        <img src={body} alt="black fragrance" />
+        <img className="place-holders" src={body} alt="black fragrance" />
         <Footer />
       </div>
     )
