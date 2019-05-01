@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import '../styles/Home.css';
 
 import faceImage from '../images/faceProducts.jpg';
 

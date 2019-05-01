@@ -43,8 +43,10 @@ const stylish = {
   textAlign: 'center',
   background: 'black',
   color: 'white',
-  paddingBottom: 50
-
+  paddingBottom: 50,
+  position: 'absolute',
+  bottom: 0,
+  width: '100%'
 }
 
 const copyRight = {

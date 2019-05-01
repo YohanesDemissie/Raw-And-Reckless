@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-
-import shower from '../images/shower.jpg'
+import React, { Component } from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import shower from '../images/shower.jpg';
 
 class ShowerProducts extends Component{
   render() {
