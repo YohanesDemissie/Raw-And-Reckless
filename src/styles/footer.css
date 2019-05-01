@@ -5,3 +5,10 @@
     
   }
 }
+
+@media only screen and (max-width: 530px) {
+  div a{
+    display: none;
+    
+  }
+}
