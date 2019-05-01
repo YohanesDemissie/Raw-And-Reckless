@@ -1,0 +1,7 @@
+@media only screen and (max-width: 530px) {
+  div a{
+    width: 100%;
+    font-size: 10px;
+    
+  }
+}

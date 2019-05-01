@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import facebookIcon from '../images/facebook-icon.png';
 import twitterIcon from '../images/twitter-icon.png';
 import instagramIcon from '../images/instagram-icon.png';
+import '../styles/footer.css'
 
 class Footer extends Component{
   render() {
